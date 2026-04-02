@@ -5,7 +5,8 @@ description = "Create audiobooks for posts easily."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "asyncpraw==7.1.0",
+    "load-dotenv>=0.1.0",
     "piper-tts>=1.4.1",
-    "praw>=7.8.1",
     "pytest>=9.0.2",
 ]
